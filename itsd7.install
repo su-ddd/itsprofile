@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+
+function itsd7_install() {
+
+  // Do all the install tasks from the standard install profile
+  // It's easier just to include this and then override the few things that we want to.
+  include_once(DRUPAL_ROOT . '/profiles/standard/standard.install');
+  standard_install();
+  
+  // User registration - only site administrators can create new user accounts
+  variable_set('user_register', 0);
+  
+  // Disable user-configurable timezones by default
+  variable_set('configurable_timezones', 0);
+}

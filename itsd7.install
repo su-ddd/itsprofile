@@ -7,6 +7,8 @@
  */
 
 function itsd7_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
 
   // User registration - only site administrators can create new user accounts
   variable_set('user_register', 0);

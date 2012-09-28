@@ -2,3 +2,5 @@ name = IT Services
 description = IT Services Drupal Site
 core = 7.x
 version = 7.x-1.0-dev
+
+dependencies[] = webauth

@@ -26,5 +26,6 @@ projects[drupal][version] = "7.15"
 
 ; Custom modules, Stanford features server
 ; ------------
+projects[webauth][type] = module
 projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
 projects[webauth][version] = "3.1"

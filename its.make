@@ -23,3 +23,15 @@ api = 2
 ; install profiles *should not* include a core project.
 
 projects[drupal][version] = "7.15"
+
+; Profile
+; ------------
+projects[itsd7][type] = profile
+projects[itsd7][download][type] = "git"
+projects[itsd7][download][url] = "https://github.com/su-ddd/itsprofile.git"
+projects[itsd7][download][branch] = "master"
+
+; Custom modules, Stanford features server
+; ------------
+projects[webauth][type] = "module"
+projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"

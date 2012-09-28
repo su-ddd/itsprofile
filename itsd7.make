@@ -23,3 +23,8 @@ api = 2
 ; install profiles *should not* include a core project.
 
 projects[drupal][version] = "7.15"
+
+; Custom modules, Stanford features server
+; ------------
+projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
+projects[webauth][version] = "3.1"

@@ -3,4 +3,14 @@ description = IT Services Drupal Site
 core = 7.x
 version = 7.x-1.0-dev
 
+; Core modules
+dependencies[] = block
+
+; Custom modules
 dependencies[] = webauth
+
+; Contributed modules
+dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui

@@ -35,3 +35,8 @@ projects[itsd7][download][branch] = "master"
 ; ------------
 projects[webauth][type] = "module"
 projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
+
+; Contributed modules
+projects[] = admin_menu
+projects[] = ctools
+projects[] = views

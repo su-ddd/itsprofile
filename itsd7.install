@@ -40,4 +40,11 @@ function itsd7_install() {
   
   // Disable user-configurable timezones by default
   variable_set('configurable_timezones', 0);
+
+  // Add WebAuth role mapping for the docs team
+  db_insert('webauth_roles')
+    ->fields(array('wa_group' => 'itservices:docs-team', 'rid' => $admin_role->rid))
+	->execute();
+
+  webauth_write_htaccess();
 }

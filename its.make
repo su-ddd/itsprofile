@@ -22,7 +22,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][version] = "7.15"
+projects[drupal][version] = "7.18"
 
 ; Profile
 ; ------------
@@ -40,3 +40,15 @@ projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
 projects[] = admin_menu
 projects[] = ctools
 projects[] = views
+
+; Contributed themes
+projects[open_framework][type] = "theme"
+projects[open_framework][download][type] = "git"
+projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework.git"
+projects[open_framework][download][branch] = "7.x-2.x"
+
+; Stanford themes
+projects[stanford_framework][type] = "theme"
+projects[stanford_framework][download][type] = "git"
+projects[stanford_framework][download][url] = "https://github.com/SU-SWS/stanford_framework.git"
+projects[stanford_framework][download][branch] = "7.x-2.x"

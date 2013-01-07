@@ -31,6 +31,9 @@ function itsd7_install() {
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
 
+  // Enable the Stanford Framework theme.
+  variable_set('theme_default', 'stanford_framework');
+
   // Basic Permissions
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));

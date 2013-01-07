@@ -50,5 +50,5 @@ projects[open_framework][download][branch] = "7.x-2.x"
 ; Stanford themes
 projects[stanford_framework][type] = "theme"
 projects[stanford_framework][download][type] = "git"
-projects[stanford_framework][download][url] = "https://github.com/SU-SWS/stanford_framework.git"
+projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
 projects[stanford_framework][download][branch] = "7.x-2.x"

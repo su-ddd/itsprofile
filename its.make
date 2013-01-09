@@ -40,6 +40,7 @@ projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
 projects[] = admin_menu
 projects[] = ctools
 projects[] = views
+projects[] = google_analytics
 
 ; Contributed themes
 projects[open_framework][type] = "theme"

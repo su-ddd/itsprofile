@@ -22,7 +22,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][version] = "7.18"
+projects[drupal][version] = "7.19"
 
 ; Profile
 ; ------------
@@ -58,3 +58,8 @@ projects[stanford_itservices][type] = "theme"
 projects[stanford_itservices][download][type] = "git"
 projects[stanford_itservices][download][url] = "git@github.com:su-ddd/stanford_itservices.git"
 projects[stanford_itservices][download][branch] = "7.x-1.x"
+
+projects[stanford_itservices][type] = "theme"
+projects[stanford_itservices][download][type] = "git"
+projects[stanford_itservices][download][url] = "git@github.com:su-ddd/itservices_seven.git"
+projects[stanford_itservices][download][branch] = "master"

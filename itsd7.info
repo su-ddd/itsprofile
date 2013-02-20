@@ -8,6 +8,7 @@ dependencies[] = block
 
 ; Custom modules
 dependencies[] = webauth
+dependencies[] = its_search
 
 ; Contributed modules
 dependencies[] = admin_menu

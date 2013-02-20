@@ -36,6 +36,11 @@ projects[itsd7][download][branch] = "master"
 projects[webauth][type] = "module"
 projects[webauth][location] = "http://drupalfeatures.stanford.edu/fserver"
 
+; Custom modules, Github
+projects[itservices][type] = "module"
+projects[itservices][download][type] = "git"
+projects[itservices][download][url] = "git@github.com:su-ddd/itservices.git"
+
 ; Contributed modules
 projects[] = admin_menu
 projects[] = ctools
@@ -67,4 +72,4 @@ projects[stanford_seven][download][branch] = "7.x-1.x"
 projects[itservices_seven][type] = "theme"
 projects[itservices_seven][download][type] = "git"
 projects[itservices_seven][download][url] = "git@github.com:su-ddd/itservices_seven.git"
-projects[itservices_seven][download][branch] = "7.x=1.x"
+projects[itservices_seven][download][branch] = "7.x-1.x"

@@ -10,6 +10,9 @@ dependencies[] = menu
 ; Custom modules
 dependencies[] = webauth
 dependencies[] = its_search
+dependencies[] = its_social
+dependencies[] = stanford_it_services_status_menu
+dependencies[] = stanford_it_services_about_us_menu
 
 ; Contributed modules
 dependencies[] = admin_menu

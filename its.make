@@ -22,7 +22,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][version] = "7.19"
+projects[drupal][version] = "7.20"
 
 ; Profile
 ; ------------

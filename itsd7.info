@@ -5,6 +5,7 @@ version = 7.x-1.0-dev
 
 ; Core modules
 dependencies[] = block
+dependencies[] = menu
 
 ; Custom modules
 dependencies[] = webauth

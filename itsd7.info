@@ -19,3 +19,4 @@ dependencies[] = admin_menu
 dependencies[] = ctools
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = features

@@ -52,6 +52,7 @@ projects[] = block_class
 ; Contributed modules - to be removed from production
 
 projects[menu_import][version] = "1.x-dev"
+projects[] = features
 
 ; Contributed libraries
 libraries[ckeditor][download][type] = "get"

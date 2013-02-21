@@ -46,6 +46,13 @@ projects[] = admin_menu
 projects[] = ctools
 projects[] = views
 projects[] = google_analytics
+projects[] = ckeditor
+
+; Contributed libraries
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1.1/ckeditor_4.0.1.1_standard.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
 
 ; Contributed themes
 projects[open_framework][type] = "theme"

@@ -47,6 +47,11 @@ projects[] = ctools
 projects[] = views
 projects[] = google_analytics
 projects[] = ckeditor
+projects[] = block_class
+
+; Contributed modules - to be removed from production
+
+projects[menu_import][version] = "1.x-dev"
 
 ; Contributed libraries
 libraries[ckeditor][download][type] = "get"

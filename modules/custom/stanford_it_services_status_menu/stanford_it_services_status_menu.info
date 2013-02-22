@@ -1,0 +1,14 @@
+name = Stanford IT Services Status Menu
+description = Status and Metrics Menu
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = stanford_it_services_status_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:1
+features[menu_custom][] = menu-status-metrics
+features[menu_links][] = menu-status-metrics:http://italertsu.stanford.edu/
+features[menu_links][] = menu-status-metrics:http://itmetrics.stanford.edu/
+features[menu_links][] = menu-status-metrics:http://monitoring.stanford.edu/
+features[menu_links][] = menu-status-metrics:https://remedyweb.stanford.edu/helpsu/auth/helpsu-status

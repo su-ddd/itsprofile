@@ -1,0 +1,14 @@
+name = Stanford IT Services About Us Menu
+description = About Us Menu
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = stanford_it_services_about_us_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:1
+features[menu_custom][] = menu-about-us
+features[menu_links][] = menu-about-us:http://its-internal.stanford.edu/
+features[menu_links][] = menu-about-us:https://itservices.stanford.edu/organization/jobs
+features[menu_links][] = menu-about-us:https://itservices.stanford.edu/organization/orgchart
+features[menu_links][] = menu-about-us:https://itservices.stanford.edu/strategy

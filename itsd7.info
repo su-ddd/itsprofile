@@ -11,6 +11,8 @@ dependencies[] = menu
 dependencies[] = webauth
 dependencies[] = its_search
 dependencies[] = its_social
+dependencies[] = its_address_block
+dependencies[] = its_status_block
 dependencies[] = stanford_it_services_status_menu
 dependencies[] = stanford_it_services_about_us_menu
 
@@ -20,3 +22,4 @@ dependencies[] = ctools
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = features
+dependencies[] = block_class

@@ -48,6 +48,9 @@ function itsd7_install() {
   // Turn on clean URLs - useful for writing .htaccess file below as well
   variable_set('clean_url', TRUE);
 
+  // Disable secondary links
+  variable_set('menu_secondary_links_source', 0);
+
   // Add WebAuth role mapping for the docs team
   db_insert('webauth_roles')
     ->fields(array('wa_group' => 'itservices:docs-team', 'rid' => $admin_role->rid))

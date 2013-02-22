@@ -1,0 +1,38 @@
+Services {"url":"","expanded":true}
+-All {"url":""}
+-Accounts & Access {"url":""}
+-Backup & Storage {"url":""}
+-Communications {"url":""}
+-Desktop Computing & Support {"url":""}
+-Email & Calendar {"url":""}
+-Help & Training {"url":""}
+-Networks & Connectivity {"url":""}
+-Research Computing {"url":""}
+-Security {"url":""}
+-Servers & Data {"url":""}
+-Software & Business Applications {"url":""}
+-Web & Collaboration {"url":""}
+Get Started {"url":"","expanded":true}
+-Create your SUNet ID {"url":""}
+-Connect to the network {"url":""}
+-Set up your email {"url":""}
+-Make a call {"url":""}
+-Check your voicemail {"url":""}
+-Select a cell phone {"url":""}
+-Secure your data {"url":""}
+-Store files and data {"url":""}
+-Back up files and data {"url":""}
+-Manage documents {"url":""}
+-Publish a web site {"url":""}
+-Order a server {"url":""}
+-Arrange a video conference {"url":""}
+Support {"url":"","expanded":true}
+-Submit a HelpSU request {"url":""}
+-Frequently Asked Questions {"url":"<front>"}
+-Training Opportunities {"url":"<front>"}
+-Status & Metrics {"url":""}
+Security {"url":"","expanded":true}
+-Secure Computing {"url":""}
+-Encrypt your computer {"url":""}
+-Secure your mobile device {"url":""}
+-Information Security Office {"url":"","hidden":true}

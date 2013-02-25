@@ -23,3 +23,8 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = features
 dependencies[] = block_class
+;; SEO
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
+dependencies[] = metatag

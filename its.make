@@ -48,6 +48,9 @@ projects[] = views
 projects[] = google_analytics
 projects[] = ckeditor
 projects[] = block_class
+;; SEO
+projects[] = xmlsitemap
+projects[] = metatag
 
 ; Contributed modules - to be removed from production
 
